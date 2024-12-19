@@ -1,0 +1,25 @@
+.logo {
+    width: 4em;
+    object-fit: cover;
+    margin-top: 5px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .logo {
+        width: 3em;
+    }
+}
